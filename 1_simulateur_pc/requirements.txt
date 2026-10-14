@@ -1,0 +1,4 @@
+# Dependances - simulateur_voiture.py (cote PC)
+# Installation : pip install -r requirements.txt
+
+pyserial>=3.5

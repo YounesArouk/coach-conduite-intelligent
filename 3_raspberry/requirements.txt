@@ -1,0 +1,11 @@
+# Dependances Python - Raspberry Pi
+# Installation : pip install -r requirements.txt --break-system-packages
+#
+# IMPORTANT : scikit-learn est epingle a 1.6.1 = la version utilisee
+# pour entrainer le modele dans Colab. Une version differente provoque
+# un InconsistentVersionWarning et des predictions potentiellement fausses.
+
+python-can>=4.0
+scikit-learn==1.6.1
+pandas>=2.0
+joblib>=1.3
